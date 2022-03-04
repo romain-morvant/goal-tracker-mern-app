@@ -9,6 +9,7 @@ const protect = asyncHandler(async (req, res, next) => {
         try {
             // Get token from header
             token = req.headers.authorization.split(' ')[1]
+            // Authorization: Bearer xxxxx4xxx65xx
             // Handle token presented as a Bearer token in the Authorization header
 
             // Verify token
