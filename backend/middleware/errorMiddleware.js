@@ -1,4 +1,4 @@
-// A middleware is just a function that executes during the request response cycle
+// A middleware is just a function that runs during the request response cycle
 const errorHandler = (err, req, res, next) => {
     const statusCode = res.statusCode ? res.statusCode : 500
 
